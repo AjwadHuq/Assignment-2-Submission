@@ -1,0 +1,239 @@
+body{
+    background-color: #F3F1FF;
+    margin-bottom: 40px;
+    box-sizing:inherit;
+}
+/*header*/
+.header{
+    width: 1440px;
+    height: 94px;
+    left: 0px;
+    right: 0px;
+    background: #562EFF;
+    color:white;
+    font-size:unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    vertical-align: middle;
+  }
+
+
+.li,a{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-flex;
+  cursor: pointer;
+}
+.logo{
+  cursor: pointer;
+  display: inline-block;
+  padding: 285px;
+}
+.nav_links{
+  list-style: none;
+  padding-right: 285px;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.nav_links li a:hover{
+  color: yellow
+}
+
+/*Box for Top Players and Blogs*/
+.rectangle{
+    position:absolute;
+    width: 870px;
+    height:679px;
+    left: 285px;
+    top: 128px;
+    background: white;
+    border-radius: 5px;
+    align-items: center;
+  }
+/*Content for Top Players*/
+.column{
+  float:left;
+  height: 80px;
+  width:30%;
+ padding-left: 23px;
+}
+.column-item{
+  vertical-align: middle;
+}
+.row:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+/*Content for Top Blog*/
+.blog-column{
+  float:left;
+  width: 50%; 
+/* border-style: groove;*/
+  display:flex;
+  padding-bottom: 26px;
+  height: 130px;
+}
+
+.blog-item{
+padding-top: 23px;
+padding-left: 23px;
+vertical-align:middle;
+display: flex;
+}
+/*heading for blogs*/
+h5{
+  font-weight:bold;
+  font-size: 15px;
+  color: #1e1e1e;
+  padding-left: 16px;
+  object-position: top;
+}
+
+.author{
+  font-size: 14px;
+  color: #562EFF;
+  cursor: pointer;
+}
+.By{
+  padding-left: 16px;
+}
+
+/*Box for Top Courses*/
+.box{
+  position: absolute;
+  width: 870px;
+  height: 370px;
+  left: 285px;
+  top: 828px;
+  margin: auto;
+  clear: both;
+  align-items:flex-start;
+  background: #FFFFFF;
+  border-radius: 5px;
+
+  }
+/*Font Size and Color*/
+/*Top Player*/
+h1{
+    padding-left: 33px;    
+    font-weight: 300px;
+    font-size:24px;
+    line-height: 36px;
+    color: #562EFF;
+    padding-top: 10px;
+}
+/*Top Blog*/
+h3{
+  padding-left: 33px;
+  font-weight: 300px;
+  font-size: 24px;
+  color: #562EFF;
+}
+/* Latest Courses*/
+h2{
+    padding-left: 33px;
+    font-weight: 300px;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #562EFF;
+}
+
+hr{
+    border: 0.5px solid #d1d1d1;
+    width: 807px;
+    height: 0px;
+}
+
+/*Boxes for Top Courses*/
+.flexbox-container{
+  display: flex;
+}
+.flexbox-item {
+  width:33.33%;
+  height: 285px;
+  margin-left: 20px;
+  margin-right: 20px;
+  filter:drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+  background-color: #FFFFFF;
+  border-radius: 13.5px;
+}
+.flexbox-item-1{
+  min-height: 260px;
+  
+}
+.flexbox-item-2{
+  min-height: 260px;
+}
+.flexbox-item-3{
+  min-height: 260px;
+}
+
+.card-image-top{
+  padding-top: 13px;
+  padding-left: 13px;
+}
+
+.card-image-star{
+  width:15px;
+  height: 15px;
+}
+.star-padding{
+  padding-left: 10px;
+  padding-top: 17px;
+
+}
+.rating-number{
+Vertical-align: Top;
+color: #a2a2a2;
+}
+
+/*Heading For Courses*/
+.h4{
+ box-align: left;
+ font-size: 20.3px;
+ line-height: 100%;
+ vertical-align: Top; 
+}
+
+.course-author{
+  font-size: 14px;
+  float: left;
+  line-height: 15px;
+  line-height: 100%;
+  color: #ed6b4f;
+  vertical-align: top;
+  padding-left: 13px;
+}
+
+.time-button{
+  border-radius: 14.6px;
+  height: 20px;
+  width: 80px;
+  float:right;
+  background-color: #FFe4e8;
+  align-content: space-between;
+  margin-right: 10px;
+}
+
+.clock-image{
+  padding:4px ;
+  height: 15px;
+  vertical-align: middle;
+  align-content: center;
+}
+
+.time-text{
+  text-align: center;
+  color:#ff4a60;
+  font-size: 10px;
+  vertical-align: middle;
+}
